@@ -33,7 +33,7 @@ var conversation = new Conversation({
   // username: '<username>',
   // password: '<password>',
   url: 'https://gateway.watsonplatform.net/conversation/api',
-  version_date: '2016-10-21',
+  version_date: process.env.API_VERSION || '2016-10-21',
   version: 'v1'
 });
 
